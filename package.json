@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.9.20"
+    "eslint": "^7.3.1"
   }
 }
