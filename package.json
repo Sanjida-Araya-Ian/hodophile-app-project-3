@@ -1,0 +1,24 @@
+{
+  "name": "hodophile-app",
+  "version": "1.0.0",
+  "description": "project-3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3.git"
+  },
+  "author": "Sanjida-Araya-Ian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3/issues"
+  },
+  "homepage": "https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20"
+  }
+}
