@@ -13,9 +13,7 @@
   },
   "author": "Sanjida-Araya-Ian",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3/issues"
-  },
+  
   "homepage": "https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3#readme",
   "dependencies": {
     "eslint": "^7.3.1"
