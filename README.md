@@ -1,4 +1,4 @@
-## Hodophile travel buket list app Project 3
+## Hodophile travel buket list app/ Project 3
 
 
 ## Description 
