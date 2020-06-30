@@ -1,7 +1,5 @@
 ## Hodophile travel buket list app Project 3
 
-  
-## Hodophile: One who loves to travel
 
 ## Description 
 
