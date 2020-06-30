@@ -1,6 +1,5 @@
 ## Hodophile travel buket list app Project 3
 
-<hr>
   
 ## Hodophile: One who loves to travel
 
@@ -51,7 +50,7 @@ Navigate to root directory and "npm start" to start client.
 
 
 ## Authors
-<hr>
+
 * Sanjida
 * Araya
 * Ian
