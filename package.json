@@ -1,28 +1,96 @@
 {
-  "name": "mern",
+  "name": "hodophile",
   "version": "1.0.0",
-  "description": "",
+  "description": "An app that a group of friends or family members can use to help plan a trip they will be taking together",
+  "author": "nawrin, arraya, ian",
+  "license": "MIT",
   "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sn-1"
+  },
+  "homepage": "",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run start",
-    "seed": "node scripts/seedDB.js",
+    "start:dev": "npm run kill && concurrently \"nodemon\" \"npm run client\"",
+    "server": "npm run kill && nodemon",
+    "client": "cd client && npm start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "kill": "kill-port 3001",
+    "lint": "eslint --quiet .",
+    "lint:fix": "eslint --fix .",
+    "tests": "npm run kill && NODE_ENV=test nyc --reporter=html --reporter=text mocha tests/**/*.spec.js --exit",
+    "test:coverage": "nyc report --reporter=text-lcov | coveralls"
   },
-  "author": "",
-  "license": "ISC",
+  "nodemonConfig": {
+    "events": {
+      "restart": "npm run kill",
+      "crash": "npm run kill"
+    },
+    "delay": "3000",
+    "ignore": [
+      "client/*"
+    ]
+  },
+  "nyc": {
+    "exclude": [
+      "client"
+    ]
+  },
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "concurrently": "^5.2.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "kill-port": "^1.6.0",
+    "mocha": "^7.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nodemon": "^2.0.4",
+    "nyc": "^15.1.0",
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "if-env": "^1.0.4"
+    "@fullcalendar/core": "^4.4.2",
+    "@fullcalendar/daygrid": "^4.4.2",
+    "@fullcalendar/interaction": "^4.4.2",
+    "@fullcalendar/moment-timezone": "^4.4.2",
+    "@fullcalendar/react": "^4.4.2",
+    "@fullcalendar/timegrid": "^4.4.2",
+    "@pusher/chatkit-client": "^1.14.1",
+    "@pusher/chatkit-server": "^2.4.0",
+    "axios": "^0.19.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^2.14.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.17.1",
+    "google-map-react": "^1.1.7",
+    "helmet": "^3.23.3",
+    "if-env": "^1.0.4",
+    "local-storage": "^2.0.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.21",
+    "node-sass": "^4.13.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "passport-session": "^1.0.2",
+    "react-bootstrap": "^1.0.1",
+    "react-google-maps": "^9.4.5",
+    "react-places-autocomplete": "^7.2.1",
+    "script": "^0.1.4"
   }
 }
