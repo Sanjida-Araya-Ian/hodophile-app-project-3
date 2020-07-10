@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "TBD",
   "private": true,
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@pusher/chatkit-client": "^1.14.1",
     "@pusher/chatkit-server": "^2.4.0",

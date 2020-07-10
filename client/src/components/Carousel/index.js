@@ -9,19 +9,19 @@ function Carousel(props) {
         <div className="carousel-item active">
           <div className="d-block w-100 img1" />
           <div className="carousel-caption">
-            {/* <h1><a href="https://www.nps.gov/grca/index.htm"></a></h1> */}
+           <h1>WELCOME</h1>
           </div>
         </div>
         <div className="carousel-item">
           <div className="d-block w-100 img2" />
           <div className="carousel-caption">
-            {/* <h1><a href="https://www.indonesia.travel/us/en/destinations/java/bromo-tengger-semeru-national-park/mount-bromo">Bromo</a></h1> */}
+            <h1>Iceland</h1>
           </div>
         </div>
         <div className="carousel-item">
           <div className="d-block w-100 img3" />
           <div className="carousel-caption">
-            {/* <h1><a href="https://ranchosantana.com/">Rancho Santana</a></h1> */}
+            <h1>Phuket Thailand</h1>
           </div>
         </div>
       </div>
