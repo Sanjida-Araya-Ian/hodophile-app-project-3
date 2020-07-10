@@ -22,8 +22,15 @@ function Carousel(props) {
           <div className="d-block w-100 img3" />
           <div className="carousel-caption">
             <h1>Phuket Thailand</h1>
-          </div>
+          </div> 
         </div>
+        <div className="carousel-item">
+          <div className="d-block w-100 img4" />
+          <div className="carousel-caption">
+            <h1>Phuket Thailand</h1>
+          </div> 
+        </div>
+
       </div>
       <a className="carousel-control-prev" href="#carouselWrapperFade" role="button" data-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
