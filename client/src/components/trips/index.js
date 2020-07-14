@@ -78,11 +78,11 @@ class Trips extends Component {
                 <div
                   id="a-trip"
                 >
-                  <div className="card-body">
+                  {/* <div className="card-body">
                     Guests: {trip.guests} <br />
                     Trip Start: <Clock deadline={trip.start} /> <br />
                     Description: {trip.description}
-                  </div>
+                  </div> */}
                 </div>
                 }
               </div>

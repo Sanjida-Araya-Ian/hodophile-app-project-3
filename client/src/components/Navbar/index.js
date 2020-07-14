@@ -79,8 +79,11 @@ class Navbar extends React.Component {
                 <li className="nav-item m-2">
                   <Link to="/location" className={window.location.pathname === "/location" ? "nav-link active" : "nav-link"}><i className="fas fa-map-marker-alt"></i> Location </Link>
                 </li>
-                <li className="nav-item m-2">
+                {/* <li className="nav-item m-2">
                   <Link to="/chat" className={window.location.pathname === "/chat" ? "nav-link active" : "nav-link"} target="_"><i className="far fa-comment-dots"></i> Chat </Link>
+                </li> */}
+                <li className="nav-item m-2">
+                  <Link to="/about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}><i className="fa fa-book fa-fw"></i> About </Link>
                 </li>
                 <li className="nav-item m-2">
                   <Link to="/" className="nav-link" onClick={this.props.logOut}><i className="fas fa-sign-out-alt"></i> Log Out</Link>

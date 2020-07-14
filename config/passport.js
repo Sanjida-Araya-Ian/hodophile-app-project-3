@@ -21,8 +21,9 @@ module.exports = () => {
 
 
    // Sign up configuration
+   
    // ========================================
-
+   
    passport.use("local-signup", new LocalStrategy({
       usernameField: 'username',
       passwordField: 'password',
