@@ -35,12 +35,12 @@ export default function FormModal(props) {
               <p className="error">{props.errorTitle}</p>
             </div>
 
-            <div class="form-group">
+            {/* <div class="form-group">
     <label for="exampleFormControlSelect2">Guests</label>
     <select multiple class="form-control" id="exampleFormControlSelect2" onChange={props.handleGuestsChange}>
     {userDropdowns(props.users, props.guests)}
     </select>
-  </div>
+  </div> */}
      
 
             <div className="form-group">
