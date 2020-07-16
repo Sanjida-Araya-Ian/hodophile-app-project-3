@@ -59,10 +59,11 @@ class Navbar extends React.Component {
         </nav>
       );
 
-    } else {
-      if (this.state.shouldRedirectToChat) {
-        return <Redirect to="/chat"></Redirect>
-      } else {
+     } //else {
+      // /if (this.state.shouldRedirectToChat) {
+        // return <Redirect to="/chat"></Redirect>
+     // } 
+      else {
         return (
           <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-white py-0">
             <Link className="navbar-brand text-body" to="/profile">
@@ -95,6 +96,6 @@ class Navbar extends React.Component {
         }
     }
   }
-}
+// /}
 
 export default Navbar;
