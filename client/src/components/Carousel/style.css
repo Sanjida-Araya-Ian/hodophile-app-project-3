@@ -33,6 +33,11 @@ h1 a, h1 a:hover {
     background-position: center;
     background-size: cover;
 }
+.img4 {
+    background-image: url(./img/cd.jpeg);
+    background-position: center; 
+    background-size: cover;
+}
 
 #carouselWrapperFade {
     height: 800px;
