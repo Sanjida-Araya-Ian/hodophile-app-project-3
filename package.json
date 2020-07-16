@@ -2,8 +2,7 @@
   "name": "hodophile",
   "version": "1.0.0",
   "description": "An app that a group of friends or family members can use to help plan a trip they will be taking together",
-  "author": "nawrin, arraya, ian",
-  "license": "MIT",
+  "author": "nawrin, araya, ian",
   "main": "server.js",
   "repository": {
     "type": "git",
