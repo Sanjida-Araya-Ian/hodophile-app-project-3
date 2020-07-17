@@ -1,5 +1,5 @@
 .btn {
-    font-family: 'Jaldi', sans-serif;
+    font-family: monospace;
     font-size: 18px;
 }
 
@@ -8,12 +8,12 @@
 }
 
 .row, .form-group {
-    font-family: 'Jaldi', sans-serif;
+    font-family: monospace;
     font-size: 22px;
 }
 
 .row h1 {
-    font-family: 'Signika', sans-serif;
+    font-family: monospace;
 }
 
 #profile {
