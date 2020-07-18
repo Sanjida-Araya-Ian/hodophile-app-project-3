@@ -67,7 +67,7 @@ trip
 * Heroku for deployment
 * mLab add-on for cloud-based Mongo database
 * Git version-control system
-* Bootstrap 4.0 frontend framework
+* Bootstrap v4.5.0 frontend framework
 * HTML
 * CSS
 * Favicon & App Icon Generator
