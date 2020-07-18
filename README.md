@@ -2,11 +2,10 @@
    
 ### Created by Team Hodophile
 
-Project Team Members: 
+👥 Project Team Members: 
 ---
 
 ## Araya Nawrath [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/My-unicorn)
-
 ## Sanjida Nawrin [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/sn-1)
 ## Ian Edwards [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/ianedwards-jpg)
 
@@ -22,14 +21,14 @@ Hodophile is deployed on Heroku. See the links below.
 ### GitHub repository: https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3
 
 
-### Here is how we can use this App ###
+### Here is how we can use this App 💯 ###
 
 <strong>To use the app:</strong> 
 
 Visit the Heroku link above. 
 
 - - - -
-### Register "form" :
+### 🛃 Register "form" :
 - - - -
 Click on the "Register" button in the nav bar and go to the registration form to set up an account. Enter a username and password (at least 6 characters), and confirm the password. Then click "Sign Up". 
 
@@ -38,25 +37,25 @@ Click on the "Register" button in the nav bar and go to the registration form to
 This form has validation, so the username must be unique and the password must be at least 6 characters and the two password fields must match.
 
 - - - -
-### Log in "form" :
+### ✅ Log in "form" :
 - - - -
 
 If you already have registered with Hodophile, then click on "Log In" button in the navbar, and in the form enter your username and password. 
 
 - - - -
-### Calender page :
+### 🗓 Calender page :
 - - - -
 
 This page lets the user plan their trip and can also eidt or delete their 
 trip
 
 - - - -
-### Location page :
+### 🗺 Location page :
 - - - -
 
  This is a world map and also the user can search a particuler address .
 
- ### These are the technologies that we used for this app ###
+ ### These are the technologies that we used for this app 💻 ###
 
 * Mongo database, Mongod, and mongoose
 * Express web server
@@ -77,7 +76,7 @@ trip
 * Git version-control system
 * Slack messaging platform
 
-## these are dependencies:
+## these are dependencies 📱📲💉:
 
      @fullcalendar/core: 4.3.1
      @fullcalendar/daygrid: 4.3.0
