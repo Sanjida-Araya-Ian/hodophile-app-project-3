@@ -15,7 +15,7 @@ function NoMatch() {
             <h2>404 — Page Not Found</h2>
             <Link to="/">
               <button className="btn btn-warning mb-2" style={{fontSize: "20px"}}>
-                Wander over to Hodophile's home page
+                 Not find Hodophile's home page
               </button>
             </Link>
              
