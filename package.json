@@ -90,7 +90,8 @@
     "passport-session": "^1.0.2",
     "react-bootstrap": "^1.0.1",
     "react-google-maps": "^9.4.5",
-    "react-places-autocomplete": "^7.3.0",
+    "react-mdl": "^2.1.0",
+    "react-places-autocomplete": "^7.2.1",
     "script": "^0.1.4"
   }
 }
