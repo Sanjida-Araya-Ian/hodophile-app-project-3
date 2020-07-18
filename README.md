@@ -73,36 +73,36 @@ trip
 
 ## these are dependencies:
 
-    * @fullcalendar/core: 4.3.1
-    * @fullcalendar/daygrid: 4.3.0
-    * @fullcalendar/interaction: 4.3.0
-    * @fullcalendar/moment-timezone: 4.4.0
-    * @fullcalendar/react: 4.3.0
-    * @fullcalendar/timegrid: 4.3.0
-    * @pusher/chatkit-client: 1.13.4
-    * @pusher/chatkit-server: 2.4.0
-    * axios: 0.19.2
-    * bcrypt-nodejs: "0.0.3
-    * body-parser: 1.19.0
-    * cookie-parser: 1.4.4
-    * cors: 2.8.5
-    * date-fns: 2.10.0
-    * dotenv: 8.2.0
-    * express: 4.17.1
-    * express-flash-messages: 0.1.1
-    * express-session: 1.17.0
-    * helmet: 3.21.2
-    * if-env: 1.0.4
-    * local-storage: 2.0.0
-    * moment: 2.24.0
-    * moment-timezone: 0.5.27
-    * mongodb: 3.5.3
-    * mongoose: 5.8.11
-    * node-sass: 4.13.1
-    * passport: 0.4.1
-    * passport-local: 1.0.0
-    * passport-local-mongoose: 6.0.1
-    * passport-session: 1.0.2
-    * react-bootstrap: 1.0.0-beta.16
-    * react-google-maps: 9.4.5
-    * react-places-autocomplete: 7.2.1
+     @fullcalendar/core: 4.3.1
+     @fullcalendar/daygrid: 4.3.0
+     @fullcalendar/interaction: 4.3.0
+     @fullcalendar/moment-timezone: 4.4.0
+     @fullcalendar/react: 4.3.0
+     @fullcalendar/timegrid: 4.3.0
+     @pusher/chatkit-client: 1.13.4
+     @pusher/chatkit-server: 2.4.0
+     axios: 0.19.2
+     bcrypt-nodejs: "0.0.3
+     body-parser: 1.19.0
+     cookie-parser: 1.4.4
+     cors: 2.8.5
+     date-fns: 2.10.0
+     dotenv: 8.2.0
+     express: 4.17.1
+     express-flash-messages: 0.1.1
+     express-session: 1.17.0
+     helmet: 3.21.2
+     if-env: 1.0.4
+     local-storage: 2.0.0
+     moment: 2.24.0
+     moment-timezone: 0.5.27
+     mongodb: 3.5.3
+     mongoose: 5.8.11
+     node-sass: 4.13.1
+     passport: 0.4.1
+     passport-local: 1.0.0
+     passport-local-mongoose: 6.0.1
+     passport-session: 1.0.2
+     react-bootstrap: 1.0.0-beta.16
+     react-google-maps: 9.4.5
+     react-places-autocomplete: 7.2.1
