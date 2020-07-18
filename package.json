@@ -1,13 +1,12 @@
 {
   "name": "hodophile",
   "version": "1.0.0",
-  "description": "An app that a group of friends or family members can use to help plan a trip they will be taking together",
-  "author": "nawrin, arraya, ian",
-  "license": "MIT",
+  "description": "hodophile-bucketlist-app",
+  "author": "nawrin, araya, ian",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sn-1"
+    "url": "https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3"
   },
   "homepage": "",
   "scripts": {
@@ -91,6 +90,7 @@
     "passport-session": "^1.0.2",
     "react-bootstrap": "^1.0.1",
     "react-google-maps": "^9.4.5",
+    "react-mdl": "^2.1.0",
     "react-places-autocomplete": "^7.2.1",
     "script": "^0.1.4"
   }

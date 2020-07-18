@@ -18,6 +18,14 @@ function Carousel(props) {
             {/* <h1><a href="https://www.indonesia.travel/us/en/destinations/java/bromo-tengger-semeru-national-park/mount-bromo">Bromo</a></h1> */}
           </div>
         </div>
+
+        <div className="carousel-item">
+          <div className="d-block w-100 img4" />
+          <div className="carousel-caption">
+            {/* <h1><a href="https://www.indonesia.travel/us/en/destinations/java/bromo-tengger-semeru-national-park/mount-bromo">Bromo</a></h1> */}
+          </div>
+        </div>
+
         <div className="carousel-item">
           <div className="d-block w-100 img3" />
           <div className="carousel-caption">

@@ -47,22 +47,23 @@ class Navbar extends React.Component {
               <li className="nav-item" >
                 <Link to="/register"
                   className={window.location.pathname === "/register" ? "nav-link active" : "nav-link"}>
-                  <i className="fas fa-user-plus"></i> Register
+                  <i className="fa fa-link"></i> Register
                 </Link>
               </li>
               <li className="nav-item" >
                 <a className="nav-link" data-toggle="modal" data-target="#loginModal" href="#">
-                  <i className="fas fa-sign-in-alt"></i> Log In</a>
+                  <i className="fa fa-key"></i> Log In</a>
               </li>
             </ul>
           </div>
         </nav>
       );
 
-    } else {
-      if (this.state.shouldRedirectToChat) {
-        return <Redirect to="/chat"></Redirect>
-      } else {
+     } //else {
+      // /if (this.state.shouldRedirectToChat) {
+        // return <Redirect to="/chat"></Redirect>
+     // } 
+      else {
         return (
           <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-white py-0">
             <Link className="navbar-brand text-body" to="/profile">
@@ -79,14 +80,11 @@ class Navbar extends React.Component {
                 <li className="nav-item m-2">
                   <Link to="/location" className={window.location.pathname === "/location" ? "nav-link active" : "nav-link"}><i className="fas fa-map-marker-alt"></i> Location </Link>
                 </li>
-                {/* <li className="nav-item m-2">
-                  <Link to="/chat" className={window.location.pathname === "/chat" ? "nav-link active" : "nav-link"} target="_"><i className="far fa-comment-dots"></i> Chat </Link>
-                </li> */}
                 <li className="nav-item m-2">
-                  <Link to="/about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}><i className="fa fa-book fa-fw"></i> About </Link>
+                  <Link to="/about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}><i className="fa fa-users"></i> About </Link>
                 </li>
                 <li className="nav-item m-2">
-                  <Link to="/" className="nav-link" onClick={this.props.logOut}><i className="fas fa-sign-out-alt"></i> Log Out</Link>
+                  <Link to="/" className="nav-link" onClick={this.props.logOut}><i className="fa fa-window-close"></i> Log Out</Link>
                 </li>
               </ul>
             </div>
@@ -95,6 +93,6 @@ class Navbar extends React.Component {
         }
     }
   }
-}
+// /}
 
 export default Navbar;
