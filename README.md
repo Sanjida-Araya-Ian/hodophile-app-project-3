@@ -62,7 +62,6 @@ trip
 * Passport.js
 * FullCalendar API
 * Google Maps API
-* Pusher's Chatkit (for backend chat handling)
 * Moment.js
 * Bootstrap 4.0 frontend framework
 * Heroku for deployment
