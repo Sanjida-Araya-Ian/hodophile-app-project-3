@@ -30,7 +30,7 @@ function About() {
                    </CardText>
                                     <CardActions border>
                                         <Button colored href='https://github.com/My-unicorn'>Github</Button>
-                                        <Button colored>Website</Button>
+                                        <Button colored href='http://www.arayanawrath.com/'>Website</Button>
                                     </CardActions>
                                     <CardMenu style={{ color: '#fff' }}>
                                         <IconButton name='share' />
@@ -47,7 +47,7 @@ function About() {
                   </CardText>
                                     <CardActions border>
                                         <Button colored href='https://github.com/sn-1'>Github</Button>
-                                        <Button colored>Website</Button>
+                                        {/* //<Button colored>Website</Button> */}
                                     </CardActions>
                                     <CardMenu style={{ color: '#fff' }}>
                                         <IconButton name='share' />
