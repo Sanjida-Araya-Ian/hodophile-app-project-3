@@ -11,9 +11,9 @@ The target audience for the Hodophile app are users who loves to travels and wan
 Hodophile is deployed on Heroku. See the links below.
 
 - - - -
-# Heroku-deployed app: https://powerful-tundra-15088.herokuapp.com/
+## Heroku-deployed app: https://powerful-tundra-15088.herokuapp.com/
 
-# GitHub repository: https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3
+## GitHub repository: https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3
 
 
 ### Here is how we can use this App ###
