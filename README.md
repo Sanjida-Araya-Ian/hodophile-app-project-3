@@ -82,8 +82,6 @@ trip
      @fullcalendar/moment-timezone: 4.4.0
      @fullcalendar/react: 4.3.0
      @fullcalendar/timegrid: 4.3.0
-     @pusher/chatkit-client: 1.13.4
-     @pusher/chatkit-server: 2.4.0
      axios: 0.19.2
      bcrypt-nodejs: "0.0.3
      body-parser: 1.19.0
@@ -110,6 +108,5 @@ trip
      react-google-maps: 9.4.5
      react-places-autocomplete: 7.2.1
 
-    ***
 
 © This website is build by Hodophile team 2020
