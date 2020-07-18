@@ -77,18 +77,3 @@ function About() {
 
 export default About;
 
-
-{/* <p>
-                            The skills of our team are legendary among tech circles around the world.
-                            </p>
-
-                        If you choose our team, these star devs will bring your project to life:
-                            <ul><li>Collaborating with your team and create an app with <strong>Front-End</strong>, <strong>Back-End</strong>, and database managment.</li>
-                            <li>Araya Nawrath: Experienced Front-End/UI professional. Has personally developed applications used around the world. </li>
-                            <li>Sanjida Nawrin: </li>
-                            <li>Get your whole group on the same page.</li>
-                            <li>See a countdown to the start of your trip!</li>
-                        </ul>
-                        <p>Get you group ready to get away with GroupAway!</p>
-                        <hr />
-                        <h6>If you’re new, press “Register” at the top of this page (it’s free). If you have already started organizing a trip, just “Log In” to resume your plans.</h6> */}
