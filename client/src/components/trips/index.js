@@ -43,21 +43,6 @@ class Trips extends Component {
     return (
 
       <div>
-        {/* {this.state.trips.map(trip => {
-          return (
-            <p>
-              Trip Title: {trip.title} <br /> */}
-              {/* Trip ID: {trip._id}<br/> */}
-              {/* Trip User: {trip.user}<br/> */}
-              {/* Guests: {trip.guests}
-              <br />
-              Trip Start <Clock deadline={trip.start} />
-              <br /> */}
-              {/* Trip End {trip.end}<br/> */}
-              {/* Description {trip.description}
-            </p>
-          );
-        })} */}
 
         <div className="accordion" id="trip">
           {this.state.trips.map(trip => {
@@ -78,11 +63,7 @@ class Trips extends Component {
                 <div
                   id="a-trip"
                 >
-                  {/* <div className="card-body">
-                    Guests: {trip.guests} <br />
-                    Trip Start: <Clock deadline={trip.start} /> <br />
-                    Description: {trip.description}
-                  </div> */}
+                  
                 </div>
                 }
               </div>
