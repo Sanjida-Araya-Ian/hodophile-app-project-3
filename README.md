@@ -56,21 +56,21 @@ trip
  ### These are the technologies that we used for this app 💻 ###
 
 * Mongo database, Mongod, and mongoose
+* JavaScript
 * Express web server
-* React
 * Node web server
 * Passport.js
+* React
+* Moment.js
 * FullCalendar API
 * Google Maps API
-* Moment.js
-* Bootstrap 4.0 frontend framework
 * Heroku for deployment
 * mLab add-on for cloud-based Mongo database
+* Git version-control system
+* Bootstrap 4.0 frontend framework
 * HTML
 * CSS
-* JavaScript
 * Favicon & App Icon Generator
-* Git version-control system
 * Slack messaging platform
 
 ## these are dependencies 📱📲:
