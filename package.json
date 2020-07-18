@@ -7,7 +7,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sn-1"
+    "url": "https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3"
   },
   "homepage": "",
   "scripts": {
@@ -91,6 +91,7 @@
     "passport-session": "^1.0.2",
     "react-bootstrap": "^1.0.1",
     "react-google-maps": "^9.4.5",
+    "react-mdl": "^2.1.0",
     "react-places-autocomplete": "^7.2.1",
     "script": "^0.1.4"
   }
