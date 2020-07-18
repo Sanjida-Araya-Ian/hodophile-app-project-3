@@ -17,9 +17,9 @@ So it Creates, Updates, and Deletes the data from the Mongo database. The app wa
 Hodophile is deployed on Heroku. See the links below.
 
 - - - -
-## Heroku-deployed app: https://powerful-tundra-15088.herokuapp.com/
+### Heroku-deployed app: https://powerful-tundra-15088.herokuapp.com/
 
-## GitHub repository: https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3
+### GitHub repository: https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3
 
 
 ### Here is how we can use this App ###
@@ -29,7 +29,7 @@ Hodophile is deployed on Heroku. See the links below.
 Visit the Heroku link above. 
 
 - - - -
-# Register "form" :
+### Register "form" :
 - - - -
 Click on the "Register" button in the nav bar and go to the registration form to set up an account. Enter a username and password (at least 6 characters), and confirm the password. Then click "Sign Up". 
 
@@ -38,20 +38,20 @@ Click on the "Register" button in the nav bar and go to the registration form to
 This form has validation, so the username must be unique and the password must be at least 6 characters and the two password fields must match.
 
 - - - -
-# Log in "form" :
+### Log in "form" :
 - - - -
 
 If you already have registered with Hodophile, then click on "Log In" button in the navbar, and in the form enter your username and password. 
 
 - - - -
-# Calender page :
+### Calender page :
 - - - -
 
 This page lets the user plan their trip and can also eidt or delete their 
 trip
 
 - - - -
-# Location page :
+### Location page :
 - - - -
 
  This is a world map and also the user can search a particuler address .
