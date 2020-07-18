@@ -17,7 +17,6 @@ function Map() {
     setAddress(value);
     setCoordinates(latLng);
   };
-
   return (
     <PlacesAutocomplete
       value={address}

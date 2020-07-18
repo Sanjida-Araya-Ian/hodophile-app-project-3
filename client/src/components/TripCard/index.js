@@ -36,16 +36,7 @@ export default function TripCard(props) {
               />
               <p className="error">{props.errorTitle}</p>
             </div>
-
-            {/* <div class="form-group">
-    <label for="exampleFormControlSelect2">Guests</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2" onChange={props.handleGuestsChange}>
-    {userDropdowns(props.users, props.guests)}
-    </select>
-  </div> */}
-
-
-
+            
             <div className="form-group">
               <label htmlFor="location">Location</label>
               <input
