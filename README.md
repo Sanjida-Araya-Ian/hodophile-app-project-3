@@ -2,7 +2,11 @@
    
 ### Created by Team Hodophile
 
-Project Team Members: Araya Nawrath , Sanjida Nawrin and Ian Edwards .
+Project Team Members: 
+## Araya Nawrath [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/My-unicorn)
+
+## Sanjida Nawrin [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/sn-1)
+## Ian Edwards [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/ianedwards-jpg)
 
 ____________
 This fullstack MERN app allows a user to create a trip and the user is also able to edit and delete the trip on calendar.The target audience for the Hodophile app are users who loves to travels and wants to plan ahead.
@@ -52,7 +56,7 @@ trip
 
  ### These are the technologies that we used for this app ###
 
- * Mongo database, Mongod, and mongoose
+* Mongo database, Mongod, and mongoose
 * Express web server
 * React
 * Node web server
@@ -64,7 +68,7 @@ trip
 * Bootstrap 4.0 frontend framework
 * Heroku for deployment
 * mLab add-on for cloud-based Mongo database
-* HTML5
+* HTML
 * CSS
 * JavaScript
 * Favicon & App Icon Generator
@@ -106,3 +110,5 @@ trip
      react-bootstrap: 1.0.0-beta.16
      react-google-maps: 9.4.5
      react-places-autocomplete: 7.2.1
+
+    
