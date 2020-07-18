@@ -1,6 +1,6 @@
-### 🌍 HODOPHILE 🌍
+# 🌍 HODOPHILE 🌍
    
-# Created by Team Hodophile
+### Created by Team Hodophile
 
 Project Team Members: Araya Nawrath , Sanjida Nawrin and Ian Edwards .
 
