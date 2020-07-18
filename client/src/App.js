@@ -5,10 +5,9 @@ import Home from "./pages/Home";
 import Register from "./pages/Register";
 import Modal from "./components/Modal";
 import Profile from "./pages/Profile";
-import About from "./pages/About";
 import Navbar from "./components/Navbar"
 import Location from "./pages/Location";
-//import Chat from "./pages/Chat";
+import Chat from "./pages/Chat";
 import NoMatch from "./pages/NoMatch";
 import API from "./utils/API";
 import "./App.css";
@@ -58,7 +57,7 @@ class App extends Component{
           render={(props) => <Register {...props} login={this.logIn}/>}
           />
           <Route exact path="/location" component={Location}/>
-          <Route exact path="/about" component={About}/>
+          <Route exact path="/chat" component={Chat}/>
           <Route component={NoMatch} />
         </Switch>
         <Modal login={this.logIn}/>
