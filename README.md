@@ -1,13 +1,11 @@
 # 🌍 HODOPHILE 🌍
-   
-### Created by Team Hodophile
 
-👥 Project Team Members: 
+## 👥 Project Team Members: 
 ---
 
-## Araya Nawrath [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/My-unicorn)
-## Sanjida Nawrin [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/sn-1)
-## Ian Edwards [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/ianedwards-jpg)
+## 🌹 Araya Nawrath  [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/My-unicorn)
+## 🌸 Sanjida Nawrin [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/sn-1)
+## 👔 Ian Edwards [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/ianedwards-jpg)
 
 ____________
 This fullstack MERN app allows a user to create a trip and the user is also able to edit and delete the trip on calendar.The target audience for the Hodophile app are users who loves to travels and wants to plan ahead.
@@ -76,7 +74,7 @@ trip
 * Git version-control system
 * Slack messaging platform
 
-## these are dependencies 📱📲💉:
+## these are dependencies 📱📲:
 
      @fullcalendar/core: 4.3.1
      @fullcalendar/daygrid: 4.3.0
@@ -112,4 +110,6 @@ trip
      react-google-maps: 9.4.5
      react-places-autocomplete: 7.2.1
 
-    
+    ***
+
+© This website is build by Hodophile team 2020
