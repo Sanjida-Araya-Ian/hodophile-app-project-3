@@ -66,7 +66,7 @@ trip
 * Google Maps API
 * Heroku for deployment
 * mLab add-on for cloud-based Mongo database
-* Bootstrap v4.5.0 frontend framework
+* React-MDL Material Design Lite
 
 ## these are dependencies 📱📲:
 
