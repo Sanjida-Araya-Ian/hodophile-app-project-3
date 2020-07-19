@@ -8,7 +8,7 @@
 ## 👔 Ian Edwards [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/ianedwards-jpg)
 
 ____________
-This fullstack MERN :electron: app allows a user to create a trip and the user is also able to edit and delete the trip on calendar.The target audience for the Hodophile app are users who loves to travels and wants to plan ahead.
+This fullstack MERN :electron: Vacation planner app allows a user to create a trip and the user is also able to edit and delete the trip on calendar.The target audience for the Hodophile app are users who loves to travels and wants to plan ahead.
 So it Creates, Updates, and Deletes the data from the Mongo database. The app was created with Mongo, Express, React, and Node. It was built using Passport.js, FullCalendar API and  Google Maps API .
 
 Hodophile is deployed on Heroku. See the links below.
