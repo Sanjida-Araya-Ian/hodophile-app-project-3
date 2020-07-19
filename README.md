@@ -55,7 +55,7 @@ trip
 
  ### These are the technologies that we used for this app 💻 ###
 
-* Mongo database, Mongod, and mongoose
+* Mongo database
 * JavaScript
 * Express web server
 * Node web server
@@ -66,12 +66,7 @@ trip
 * Google Maps API
 * Heroku for deployment
 * mLab add-on for cloud-based Mongo database
-* Git version-control system
 * Bootstrap v4.5.0 frontend framework
-* HTML
-* CSS
-* Favicon & App Icon Generator
-* Slack messaging platform
 
 ## these are dependencies 📱📲:
 
