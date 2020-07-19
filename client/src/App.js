@@ -8,7 +8,7 @@ import Profile from "./pages/Profile";
 import About from "./pages/About";
 import Navbar from "./components/Navbar"
 import Location from "./pages/Location";
-//import Chat from "./pages/Chat";
+import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
 import API from "./utils/API";
 import "./App.css";
@@ -62,6 +62,7 @@ class App extends Component{
           <Route component={NoMatch} />
         </Switch>
         <Modal login={this.logIn}/>
+        <Footer /> 
       </Container>
       </Router>
 
