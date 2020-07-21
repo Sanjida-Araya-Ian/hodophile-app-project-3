@@ -88,10 +88,6 @@ function Gallery() {
         </>
     );
 
-    function enlarge() {
-
-         
-    } 
 };
 
 export default Gallery;
