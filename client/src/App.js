@@ -6,7 +6,7 @@ import Register from "./pages/Register";
 import Modal from "./components/Modal";
 import Profile from "./pages/Profile";
 import About from "./pages/About";
-// import Gallery from "./pages/Gallery";
+import Gallery from "./pages/Gallery";
 import Navbar from "./components/Navbar"
 import Location from "./pages/Location";
 import Footer from "./components/Footer";
@@ -59,7 +59,7 @@ class App extends Component{
           render={(props) => <Register {...props} login={this.logIn}/>}
           />
           <Route exact path="/location" component={Location}/>
-          {/* <Route exact path="/gallery" component={Gallery}/> */}
+          <Route exact path="/gallery" component={Gallery}/>
           <Route exact path="/about" component={About}/>
           <Route component={NoMatch} />
         </Switch>
