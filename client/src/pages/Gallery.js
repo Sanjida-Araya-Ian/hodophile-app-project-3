@@ -40,7 +40,7 @@ function Gallery() {
                                     <CardTitle style={{ height: '480px', width: '330px', color: 'white', background: 'url(/img/sanjida_nawrin.jpg) center / cover' }}>
                                     </CardTitle>
                                     <CardText>
-                                        Expert in React.JS as well as a skilled back-end developer.
+                                    Sorrento, Italy, 2016
                   </CardText>
                                     <CardActions border>
                                         <Button colored img src={"./img/gallery/google.png"}>View Full Size</Button>
@@ -55,7 +55,7 @@ function Gallery() {
                                     <CardTitle style={{ height: '480px', width: '330px', color: 'white', background: 'url(/img/Me.jpg) center / cover' }}>
                                     </CardTitle>
                                     <CardText>
-                                        Highly trained full-stack developer fluent in Node.JS and server setup. Free agent able to do any task required.
+                                    Sorrento, Italy, 2016
                 </CardText>
                                     <CardActions border>
                                         <Button colored img src={"./img/gallery/google.png"}>View Full Size</Button>
@@ -70,7 +70,7 @@ function Gallery() {
                                     <CardTitle style={{ height: '480px', width: '330px', color: 'white', background: 'url(/img/Me.jpg) center / cover' }}>
                                     </CardTitle>
                                     <CardText>
-                                        Highly trained full-stack developer fluent in Node.JS and server setup. Free agent able to do any task required.
+                                    Fort Lauderdale, FL, 2016
                 </CardText>
                                     <CardActions border>
                                         <Button colored img src={"./img/gallery/google.png"}>View Full Size</Button>
