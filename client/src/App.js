@@ -59,7 +59,7 @@ class App extends Component{
           render={(props) => <Register {...props} login={this.logIn}/>}
           />
           <Route exact path="/location" component={Location}/>
-          {/* <Route exact path="/location" component={Gallery}/> */}
+          {/* <Route exact path="/gallery" component={Gallery}/> */}
           <Route exact path="/about" component={About}/>
           <Route component={NoMatch} />
         </Switch>
