@@ -14,7 +14,7 @@ So it Creates, Updates, and Deletes the data from the Mongo database. The app wa
 Hodophile is deployed on Heroku. See the links below.
 
 - - - -
-### Heroku-deployed app:
+### Heroku-deployed app: https://powerful-tundra-15088.herokuapp.com/
 
 ### GitHub repository: https://github.com/Sanjida-Araya-Ian/hodophile-app-project-3
 
