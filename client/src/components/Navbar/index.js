@@ -59,10 +59,7 @@ class Navbar extends React.Component {
         </nav>
       );
 
-     } //else {
-      // /if (this.state.shouldRedirectToChat) {
-        // return <Redirect to="/chat"></Redirect>
-     // } 
+     } 
       else {
         return (
           <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-white py-0">
@@ -84,7 +81,7 @@ class Navbar extends React.Component {
                   <Link to="/about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}><i className="fa fa-users"></i> About </Link>
                 </li>
                 <li className="nav-item m-2">
-                  <Link to="/gallery" className={window.location.pathname === "/gallery" ? "nav-link active" : "nav-link"}><i className="fa fa-users"></i> Gallery </Link>
+                  <Link to="/gallery" className={window.location.pathname === "/gallery" ? "nav-link active" : "nav-link"}><i className="fa fa-camera-retro"></i> Gallery </Link>
                 </li>
                 <li className="nav-item m-2">
                   <Link to="/" className="nav-link" onClick={this.props.logOut}><i className="fa fa-window-close"></i> Log Out</Link>
