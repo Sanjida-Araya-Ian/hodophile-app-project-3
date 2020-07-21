@@ -9,8 +9,6 @@ function Map(){
     const [selectedPlace, setSelectedPlace] =useState(null);
     const [address, setAddress] = React.useState("");
     const [coordinates, setCoordinates] = React.useState({
-        // lat: 39.106667,
-        // lng: -94.676392
         lat: 40.730610,
          lng: -73.935242
     });

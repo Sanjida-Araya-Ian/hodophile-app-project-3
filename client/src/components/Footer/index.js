@@ -7,7 +7,7 @@ function Footer() {
                 <div class="mdl-logo">Hodophile</div>
             </div>
             <div class="mdl-mini-footer__middle-section">
-                <div class="mdl-logo">Copyright: 2020 Ian Edwards, Araya Nawrath, Sanjida Nawrin</div>
+                <div class="mdl-logo">&copy; 2020 Ian Edwards, Araya Nawrath, Sanjida Nawrin</div>
             </div>
 
         </footer>

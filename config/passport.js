@@ -19,10 +19,7 @@ module.exports = () => {
 
    });
 
-
    // Sign up configuration
-   
-   // ========================================
    
    passport.use("local-signup", new LocalStrategy({
       usernameField: 'username',
@@ -62,7 +59,6 @@ module.exports = () => {
 
 
    // Log in configuration
-   // ========================================
 
    passport.use("local-login", new LocalStrategy({
       usernameField: 'username',

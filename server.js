@@ -1,5 +1,4 @@
 // Dependencies
-// ==================================================
 require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -9,29 +8,9 @@ const session = require("express-session");
 const mongoose = require("mongoose");
 const passport = require('passport');
 const path = require('path');
-
-
-// Next 2 needed for Chatkit:
 const cors = require('cors')
-// const Chatkit = require('@pusher/chatkit-server')
-
 const app = express();
-
 const PORT = process.env.PORT || 3001;
-
-// const chatInstanceLocator = process.env.REACT_APP_CHAT_INSTANCE_LOCATOR;
-
-// const chatKey = process.env.CHAT_KEY;
-
-// // Chatkit credentials
-// const chatkit = new Chatkit.default({
-//   instanceLocator: chatInstanceLocator,
-//   key: chatKey,
-// })
-
-
-// Middleware
-// ==================================================
 
 // Configure body parser (May need to be changed from true to false per Chatkit tutorial)
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -82,7 +61,6 @@ app.use((req, res, next) => {
   next();
 });
 
-// Chatkit post users and authenticate code goes from here >>>>>>>>>
 
 app.post('/users', (req, res) => {
   const { username } = req.body
@@ -105,11 +83,8 @@ app.post('/authenticate', (req, res) => {
   const authData = chatkit.authenticate({ userId: req.query.user_id })
   res.status(authData.status).send(authData.body)
 })
-// <<<<<<<<to here
 
 // Routes
-// ==================================================
-
 const routes = require("./routes");
 app.use(routes);
 
@@ -121,10 +96,7 @@ app.get('*', (req, res) => {
   } 
 });
 
-
-
 // Start API server
-// ==================================================
 
 app.listen(PORT, function () {
   console.log(`API Server now listening on PORT ${PORT}!`);

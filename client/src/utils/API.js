@@ -3,7 +3,6 @@ import axios from "axios";
 export default {
 
    // Authentication methods
-   // ===============================================
    deleteTrip: function(id){
       return axios.post(`/api/calendar/delete/${id}`);
    },
