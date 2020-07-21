@@ -32,15 +32,9 @@ class Profile extends Component {
                 <p>Welcome back, {this.props.username}!</p>
                 <p>
                   Buckle up and ENJOY!
-                {/* <li>Click anywhere on the calendar and a box will open to input your trip details.</li>
-                  <li> If your travel companions have a GroupAway account, you can list them as Guests for a particular trip. Just choose their usernames from the dropdown menu.</li>
-                  <li>Explore your destination with the in-app <strong>Location</strong> feature.</li>
-                  <li>Use the in-app <strong>Chat</strong> to discuss your trip with friends and family.</li> */}
                 </p>
               </Col>
-              {/* <button className="btn btn-success">
-                <a href="/chat" target="_" className="text-white text-decoration-none">Chat <i className="far fa-comment-dots"></i></a>
-              </button> */}
+              
             </Row>
             <Row className="my-5" id="calendar-profile">
               <Col className="col-md-12 p-4">
