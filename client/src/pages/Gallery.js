@@ -28,7 +28,7 @@ function Gallery() {
                                         Sorrento, Italy, 2016
                    </CardText>
                                     <CardActions border>
-                                        <Button colored img src={"./img/gallery/google.png"}>View Full Size</Button>
+                                        <Button colored img src={"./img/gallery/sorrentosunset.jpg"}>View Full Size</Button>
                                     </CardActions>
                                     <CardMenu style={{ color: '#fff' }}>
                                         <IconButton name='share' />
@@ -40,10 +40,10 @@ function Gallery() {
                                     <CardTitle style={{ height: '480px', width: '330px', color: 'white', background: 'url(/img/sanjida_nawrin.jpg) center / cover' }}>
                                     </CardTitle>
                                     <CardText>
-                                    Sorrento, Italy, 2016
+                                    Positano, Italy, 2016
                   </CardText>
                                     <CardActions border>
-                                        <Button colored img src={"./img/gallery/google.png"}>View Full Size</Button>
+                                        <Button colored img src={"./img/gallery/positanoitaly.jpg"}>View Full Size</Button>
                                     </CardActions>
                                     <CardMenu style={{ color: '#fff' }}>
                                         <IconButton name='share' />
@@ -55,10 +55,10 @@ function Gallery() {
                                     <CardTitle style={{ height: '480px', width: '330px', color: 'white', background: 'url(/img/Me.jpg) center / cover' }}>
                                     </CardTitle>
                                     <CardText>
-                                    Sorrento, Italy, 2016
+                                    Central Park, NYC, 2020
                 </CardText>
                                     <CardActions border>
-                                        <Button colored img src={"./img/gallery/google.png"}>View Full Size</Button>
+                                        <Button colored img src={"./img/gallery/centralparknight.jpg"}>View Full Size</Button>
                                     </CardActions>
                                     <CardMenu style={{ color: '#fff' }}>
                                         <IconButton name='share' />
@@ -73,7 +73,7 @@ function Gallery() {
                                     Fort Lauderdale, FL, 2016
                 </CardText>
                                     <CardActions border>
-                                        <Button colored img src={"./img/gallery/google.png"}>View Full Size</Button>
+                                        <Button colored img src={"./img/gallery/palmtreedusk.jpg"}>View Full Size</Button>
                                     </CardActions>
                                     <CardMenu style={{ color: '#fff' }}>
                                         <IconButton name='share' />
