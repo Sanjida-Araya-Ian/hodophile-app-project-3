@@ -73,7 +73,7 @@ function Gallery() {
                                     Fort Lauderdale, FL, 2015
                 </CardText>
                                     <CardActions border>
-                                        <Button colored href={". /img/gallery/palmtreedusk.jpg"}>View Full Size</Button>
+                                        <Button colored href={"./img/gallery/palmtreedusk.jpg"}>View Full Size</Button>
                                     </CardActions>
                                     <CardMenu style={{ color: '#fff' }}>
                                         <IconButton name='share' />
