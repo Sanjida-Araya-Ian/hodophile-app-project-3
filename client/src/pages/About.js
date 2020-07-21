@@ -22,7 +22,7 @@ function About() {
                         <Grid className="projects-grid">
                             <Cell col={4}>
                                 <Card shadow={5} style={{ minWidth: '300px', margin: 'auto' }}>
-                                    <CardTitle style={{ height: '480px', width: '330px', color: 'white', background: 'url(/img/mee.jpg) center / cover' }}>
+                                    <CardTitle style={{ height: '400px', width: '330px', color: 'white', background: 'url(/img/mee.jpg) center / cover' }}>
                                         Araya Nawrath
                     </CardTitle>
                                     <CardText>
@@ -39,7 +39,7 @@ function About() {
                             </Cell>
                             <Cell col={4}>
                                 <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                                    <CardTitle style={{ height: '480px', width: '330px', color: 'white', background: 'url(/img/sanjida_nawrin.jpg) center / cover' }}>
+                                    <CardTitle style={{ height: '400px', width: '330px', color: 'white', background: 'url(/img/sanjida_nawrin.jpg) center / cover' }}>
                                         Sanjida Nawrin
                </CardTitle>
                                     <CardText>
@@ -47,7 +47,6 @@ function About() {
                   </CardText>
                                     <CardActions border>
                                         <Button colored href='https://github.com/sn-1'>Github</Button>
-                                        {/* //<Button colored>Website</Button> */}
                                     </CardActions>
                                     <CardMenu style={{ color: '#fff' }}>
                                         <IconButton name='share' />
@@ -56,7 +55,7 @@ function About() {
                             </Cell>
                             <Cell col={4}>
                                 <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                                    <CardTitle style={{ height: '480px', width: '330px', color: 'white', background: 'url(/img/Me.jpg) center / cover' }}>
+                                    <CardTitle style={{ height: '400px', width: '330px', color: 'white', background: 'url(/img/Me.jpg) center / cover' }}>
                                         Ian Edwards
                  </CardTitle>
                                     <CardText>
