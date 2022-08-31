@@ -80,7 +80,7 @@
     "if-env": "^1.0.4",
     "local-storage": "^2.0.0",
     "moment": "^2.27.0",
-    "moment-timezone": "^0.5.31",
+    "moment-timezone": "^0.5.35",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.21",
     "node-sass": "^4.13.1",
